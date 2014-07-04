@@ -6,6 +6,10 @@
 display.setStatusBar( display.HiddenStatusBar )
 
 local storyboard = require( "storyboard" )
+<<<<<<< HEAD
+=======
+storyboard.gotoScene( "addIngredient" )
+>>>>>>> FETCH_HEAD
 
 actW = display.actualContentWidth
 actH = display.actualContentHeight
