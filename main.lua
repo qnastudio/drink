@@ -6,7 +6,6 @@
 display.setStatusBar( display.HiddenStatusBar )
 
 local storyboard = require( "storyboard" )
-storyboard.gotoScene( "start3" )
 
 actW = display.actualContentWidth
 actH = display.actualContentHeight
@@ -27,10 +26,10 @@ cupX,cupY = display.viewableContentWidth/2,display.viewableContentWidth/1.8+10
 toScene = false
 temp = 1
 
-
 storyboard.parameters = {
 	sceneChangTime = 300
 }
--------------------------------
 
 display.setDefault( "background", 1)
+
+storyboard.gotoScene( "start3" )
