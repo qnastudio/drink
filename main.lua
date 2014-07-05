@@ -6,7 +6,7 @@
 display.setStatusBar( display.HiddenStatusBar )
 
 local storyboard = require( "storyboard" )
-storyboard.gotoScene( "start3" )
+storyboard.gotoScene( "addIngredient" )
 
 actW = display.actualContentWidth
 actH = display.actualContentHeight
